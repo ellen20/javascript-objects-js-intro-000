@@ -5,6 +5,6 @@ function updatePlaylist(playlist,key,value){
 }
 function removeFromPlaylist(playlist,key){
   var key = 'Lee'
-  delete playlist.key
+  delete playlist.[key]
   return playlist
 }
