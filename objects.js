@@ -4,6 +4,6 @@ function updatePlaylist(playlist,key,value){
   return playlist
 }
 function removeFromPlaylist(playlist,key){
-  delete playlist.key
+  delete playlist.gdragon
   return playlist
 }
